@@ -12,7 +12,7 @@ export default function HomePage() {
         </div>
         <div className="item2">
           <h1>
-            Social Media <span>10x</span>Faster with AI
+            Social Media <span>10x </span>Faster with AI
           </h1>
           <img src="./img/illustration-five-stars.webp" alt="second" />
         </div>
@@ -57,7 +57,8 @@ const HomePageStyled = styled.div`
   height: 100vh;
   p {
     font-size: 24px;
-    width: 200px;
+    width: 150px;
+    text-align: center;
   }
   .container {
     display: grid;
@@ -98,6 +99,11 @@ const HomePageStyled = styled.div`
     justify-content: center;
     align-items: center;
     color: white;
+
+    h1 { 
+      width: 300px;
+      text-align: center;
+    }
 
     span {
       font-size: 32px;
